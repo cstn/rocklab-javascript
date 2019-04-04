@@ -1,0 +1,20 @@
+{
+  "name": "rocklab-javascript",
+  "version": "0.1.0",
+  "description": "Rocklab JavaScript styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna": "lerna",
+    "lerna:publish": "lerna publish",
+    "lerna:bootstrap": "lerna bootstrap"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
