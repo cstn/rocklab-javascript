@@ -2,17 +2,43 @@
   "name": "rocklab-javascript",
   "version": "0.1.0",
   "description": "Rocklab JavaScript styles",
+  "keywords": [
+    "rocklab",
+    "javacript",
+    "styleguide"
+  ],
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\"",
     "lerna": "lerna",
     "lerna:publish": "lerna publish",
     "lerna:bootstrap": "lerna bootstrap",
-    "prettier": "prettier --config .prettierrc --write \"{src,__{tests,mocks}__}/**/*.js\""
+    "lint": "eslint packages/",
+    "prettier": "prettier --config .prettierrc --write \"packages/**/*.js\""
   },
-  "author": "",
+  "pre-commit": [
+    "lint"
+  ],
+  "pre-push": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstn/rocklab-javascript"
+  },
+  "author": "Carsten Stein (carste.stein@cast-it.de)",
   "license": "UNLICENSED",
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "lerna": "^3.13.1",
+    "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1",
+    "prettier": "^1.16.4"
   }
 }
