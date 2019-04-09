@@ -1,2 +1,2 @@
-# Rocklab JavaScript Styles Guide #
+# Rocklab JavaScript Guidelines #
 
