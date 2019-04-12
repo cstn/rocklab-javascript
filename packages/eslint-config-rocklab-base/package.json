@@ -1,6 +1,6 @@
 {
   "name": "@rocklab-javascript/eslint-config-rocklab-base",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Rocklab JavaScript Style Guide base styles",
   "keywords": [
     "rocklab",
