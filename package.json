@@ -1,44 +1,63 @@
 {
   "name": "rocklab-javascript",
   "version": "0.1.0",
-  "description": "Rocklab JavaScript styles",
+  "description": "Rocklab JavaScript Style Guide",
   "keywords": [
     "rocklab",
     "javacript",
-    "styleguide"
+    "styleguide",
+    "lint"
   ],
   "engines": {
-    "node": "10.15.3",
-    "npm": "6.4.1"
+    "node": ">= 10",
+    "npm": ">= 6"
   },
-  "main": "index.js",
   "scripts": {
+    "postinstall": "npm run lerna:bootstrap",
     "test": "echo \"No test specified\"",
     "lerna": "lerna",
     "lerna:publish": "lerna publish",
     "lerna:bootstrap": "lerna bootstrap",
-    "lint": "eslint packages/",
-    "prettier": "prettier --config .prettierrc --write \"packages/**/*.js\""
+    "lint:js": "eslint packages/",
+    "lint:styles": "stylelint packages/**/*.css",
+    "lint": "npm run lint:js",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:styles -- --fix",
+    "prettier": "prettier-eslint --write \"packages/**/*.{js,md}\""
   },
-  "pre-commit": [
-    "lint"
-  ],
-  "pre-push": [
-    "test"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/cstn/rocklab-javascript"
   },
-  "author": "Carsten Stein (carste.stein@cast-it.de)",
+  "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "UNLICENSED",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
+    "husky": "^2.2.0",
     "lerna": "^3.13.1",
-    "pre-commit": "^1.2.2",
-    "pre-push": "^0.1.1",
-    "prettier": "^1.16.4"
+    "lint-staged": "^8.1.6",
+    "prettier-eslint-cli": "^4.7.1",
+    "stylelint": "^10.0.1"
   }
 }
