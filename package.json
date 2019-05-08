@@ -35,10 +35,6 @@
       "prettier-eslint --write",
       "git add"
     ],
-    "*.md": [
-      "prettier-eslint --write",
-      "git add"
-    ],
     "*.css": [
       "stylelint --fix",
       "git add"
