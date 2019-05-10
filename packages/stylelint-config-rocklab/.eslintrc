@@ -1,4 +1,3 @@
-// Template for your project's .eslintrc.
 {
   "extends": "@rocklab/eslint-config-rocklab"
 }
