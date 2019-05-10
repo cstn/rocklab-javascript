@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/cstn/rocklab-javascript/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "UNLICENSED",
   "dependencies": {

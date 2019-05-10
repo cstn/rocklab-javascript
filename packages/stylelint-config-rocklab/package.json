@@ -16,6 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/cstn/rocklab-javascript.git"
   },
+  "bugs": {
+    "url": "https://github.com/cstn/rocklab-javascript/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
