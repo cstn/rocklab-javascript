@@ -1,7 +1,9 @@
 module.exports = {
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'testcafe'],
   extends: [
+    'eslint:recommended',
     'eslint-config-airbnb-base',
+    'prettier',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:testcafe/recommended',
