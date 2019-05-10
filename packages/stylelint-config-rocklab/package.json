@@ -10,7 +10,7 @@
   ],
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
-  "license": "UNLICENCED",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",

@@ -28,7 +28,7 @@
     "access": "public"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.2.0",

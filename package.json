@@ -45,7 +45,7 @@
     "url": "https://github.com/cstn/rocklab-javascript"
   },
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@rocklab/eslint-config-rocklab": "^1.0.0",
     "eslint": "^5.16.0",
