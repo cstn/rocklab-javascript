@@ -1,2 +1,3 @@
-# Rocklab JavaScript Styles Guide #
+# Rocklab JavaScript Style Guide
 
+_Code conventions for JavaScript projects_
