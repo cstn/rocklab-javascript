@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-config-rocklab",
+  "version": "1.0.0",
+  "description": "A shareable stylelint config for web apps",
+  "keywords": [
+    "rocklab",
+    "css",
+    "styleguide",
+    "stylelint"
+  ],
+  "author": "Carsten Stein <carsten.stein@cast-it.de>",
+  "homepage": "https://github.com/cstn/rocklab-javascript#readme",
+  "license": "UNLICENCED",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstn/rocklab-javascript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cstn/rocklab-javascript/issues"
+  },
+  "devDependencies": {
+    "@rocklab/eslint-config-rocklab": "^1.0.0",
+    "stylelint": "^10.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-order": "^3.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=10"
+  }
+}
