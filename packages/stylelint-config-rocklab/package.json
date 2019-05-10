@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-rocklab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
@@ -23,7 +23,7 @@
     "url": "https://github.com/cstn/rocklab-javascript/issues"
   },
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.0.0",
+    "@rocklab/eslint-config-rocklab": "^1.1.0",
     "stylelint": "^10.0.1"
   },
   "dependencies": {
