@@ -35,7 +35,7 @@ npm run lint
 Autoformat code
 
 ```shell script
-npm run prettier`
+npm run prettier
 ```
 
 Publish a new version
