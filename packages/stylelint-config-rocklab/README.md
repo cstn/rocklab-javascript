@@ -6,21 +6,21 @@ _Stylelint rules for web app projects_
 
 ## Requirements
 
-```
-$ npm install --save-dev stylelint
+```shell script
+npm install --save-dev stylelint
 ```
 
 ## Installation
 
-```
-$ npm install --save-dev @rocklab/stylelint-config-rocklab
+```shell script
+npm install --save-dev @rocklab/stylelint-config-rocklab
 ```
 
 ## Usage
 
 _.stylelintrc_
 
-```
+```metadata json
 {
   "extends": "@rocklab/stylelint-config-rocklab",
   "rules": {
@@ -28,5 +28,3 @@ _.stylelintrc_
   }
 }
 ```
-
----

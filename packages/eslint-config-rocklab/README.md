@@ -1,4 +1,4 @@
-# NEXT Data Service JavaScript Style Guide
+# Rocklab JavaScript Style Guide
 
 _ESLint rules for React web app projects_
 
@@ -6,21 +6,21 @@ _ESLint rules for React web app projects_
 
 ## Requirements
 
-```
-$ npm install --save-dev eslint babel-eslint prettier-eslint-cli
+```shell script
+npm install --save-dev eslint babel-eslint prettier-eslint-cli
 ```
 
 ## Installation
 
-```
-$ npm install --save-dev @rocklab/eslint-config-react
+```shell script
+npm install --save-dev @rocklab/eslint-config-react
 ```
 
 ## Usage
 
 _.eslintrc_
 
-```
+```metadata json
 {
   "extends": "@rocklab/eslint-config-react",
   "rules": {
