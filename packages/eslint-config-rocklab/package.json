@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-rocklab",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "description": "A shareable eslint config for React web app",
   "keywords": [
     "rocklab",
@@ -24,8 +24,11 @@
   "bugs": {
     "url": "https://github.com/cstn/rocklab-javascript/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.2.0",
@@ -40,5 +43,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1"
-  }
+  },
+  "gitHead": "d61754e03f19a38ba74fb1273d8ff38cfc516e35"
 }
