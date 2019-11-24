@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "1.1.5",
+  "version": "1.2.5",
   "description": "Rocklab JavaScript Style Guide",
   "keywords": [
     "rocklab",
@@ -16,8 +16,9 @@
     "postinstall": "npm run lerna:bootstrap",
     "test": "echo \"No test specified\"",
     "lerna": "lerna",
-    "lerna:publish": "lerna publish",
     "lerna:bootstrap": "lerna bootstrap",
+    "lerna:version": "lerna version",
+    "lerna:publish": "lerna publish",
     "lint:js": "eslint packages/",
     "lint:styles": "stylelint packages/**/*.css",
     "lint": "npm run lint:js && npm run lint:styles",
