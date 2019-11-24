@@ -1,9 +1,7 @@
 module.exports = {
-  extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order'],
+  extends: ['stylelint-config-standard', './lib/rules/limit-language-features'],
   rules: {
-    'declaration-no-important': true,
-    'max-line-length': [100, { ignore: ['non-comments'] }],
-    'max-nesting-depth': 3,
+    // add additional rules here
   },
 };

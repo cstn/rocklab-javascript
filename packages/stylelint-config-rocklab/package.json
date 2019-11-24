@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/stylelint-config-rocklab",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
@@ -26,7 +26,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.1.5",
+    "@rocklab/eslint-config-rocklab": "^1.2.0",
     "stylelint": "^10.0.1"
   },
   "dependencies": {
