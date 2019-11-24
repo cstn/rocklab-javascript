@@ -47,7 +47,8 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.0.0",
+    "@rocklab/eslint-config-rocklab": "^1.1.5",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.2.0",
