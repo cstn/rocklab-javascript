@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "Rocklab JavaScript Style Guide",
   "keywords": [
     "rocklab",
@@ -16,8 +16,9 @@
     "postinstall": "npm run lerna:bootstrap",
     "test": "echo \"No test specified\"",
     "lerna": "lerna",
-    "lerna:publish": "lerna publish",
     "lerna:bootstrap": "lerna bootstrap",
+    "lerna:version": "lerna version",
+    "lerna:publish": "lerna publish",
     "lint:js": "eslint packages/",
     "lint:styles": "stylelint packages/**/*.css",
     "lint": "npm run lint:js && npm run lint:styles",
@@ -47,7 +48,8 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.0.0",
+    "@rocklab/eslint-config-rocklab": "^1.2.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.2.0",
@@ -59,7 +61,7 @@
     "husky": "^2.2.0",
     "lerna": "^3.13.4",
     "lint-staged": "^8.1.6",
-    "prettier-eslint-cli": "^4.7.1",
+    "prettier-eslint-cli": "^5.0.0",
     "stylelint": "^10.0.1"
   }
 }
