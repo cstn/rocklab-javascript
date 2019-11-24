@@ -10,6 +10,7 @@ module.exports = {
     './lib/rules/react.js',
     './lib/rules/hooks.js',
     './lib/rules/a11y.js',
+    './lib/rules/testing-library.js',
     './lib/rules/testcafe.js',
   ],
   rules: {
