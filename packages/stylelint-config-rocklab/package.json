@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@rocklab/eslint-config-rocklab": "^1.2.0",
-    "stylelint": "^10.0.1"
+    "stylelint": "^13.2.1"
   },
   "dependencies": {
     "stylelint-config-standard": "^18.3.0",
