@@ -63,5 +63,6 @@
     "lint-staged": "^8.1.6",
     "prettier-eslint-cli": "^5.0.0",
     "stylelint": "^13.2.1"
-  }
+  },
+  "dependencies": {}
 }
