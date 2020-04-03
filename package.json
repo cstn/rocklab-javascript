@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Rocklab JavaScript Style Guide",
   "keywords": [
     "rocklab",
@@ -48,7 +48,7 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.2.0",
+    "@rocklab/eslint-config-rocklab": "^1.2.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "husky": "^4.2.3",
