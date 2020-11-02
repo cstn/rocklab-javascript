@@ -1,7 +1,7 @@
 {
-  "name": "@rocklab/eslint-config-react",
+  "name": "@rocklab/eslint-config-node",
   "version": "1.2.1",
-  "description": "A shareable eslint config for React.js web app",
+  "description": "A shareable eslint config for Node.js web app",
   "keywords": [
     "rocklab",
     "javascript",
