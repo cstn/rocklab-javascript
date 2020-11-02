@@ -1,7 +1,7 @@
 {
-  "name": "@rocklab/eslint-config-rocklab",
-  "version": "1.2.1",
-  "description": "A shareable eslint config for React web app",
+  "name": "@rocklab/eslint-config-react",
+  "version": "2.0.0",
+  "description": "A shareable eslint config for React.js web app",
   "keywords": [
     "rocklab",
     "javascript",
@@ -30,14 +30,14 @@
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testcafe": "^0.2.1",
-    "eslint-plugin-testing-library": "^3.0.2"
+    "eslint-plugin-testing-library": "^3.10.0"
   },
   "peerDependencies": {
     "eslint": ">= 6"

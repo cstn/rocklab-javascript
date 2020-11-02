@@ -1,0 +1,44 @@
+{
+  "name": "@rocklab/eslint-config-node",
+  "version": "2.0.0",
+  "description": "A shareable eslint config for Node.js web app",
+  "keywords": [
+    "rocklab",
+    "javascript",
+    "styleguide",
+    "eslint",
+    "eslintconfig"
+  ],
+  "engines": {
+    "node": ">= 12",
+    "npm": ">= 6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstn/rocklab-javascript"
+  },
+  "bugs": {
+    "url": "https://github.com/cstn/rocklab-javascript/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Carsten Stein <carsten.stein@cast-it.de>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
+  },
+  "gitHead": "d61754e03f19a38ba74fb1273d8ff38cfc516e35"
+}
