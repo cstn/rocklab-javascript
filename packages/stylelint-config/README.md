@@ -13,7 +13,7 @@ npm install --save-dev stylelint
 ## Installation
 
 ```shell script
-npm install --save-dev @rocklab/stylelint-config-rocklab
+npm install --save-dev @rocklab/stylelint-config
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ _.stylelintrc_
 
 ```metadata json
 {
-  "extends": "@rocklab/stylelint-config-rocklab",
+  "extends": "@rocklab/stylelint-config",
   "rules": {
     // Add your rules
   }

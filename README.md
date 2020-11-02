@@ -4,21 +4,21 @@ _Code conventions for JavaScript projects_
 
 ## Style guides
 
-1. [React Style Guide](./packages/eslint-config-rocklab)
-1. [CSS Style Guide](./packages/stylelint-config-rocklab)
+1. [React Style Guide](packages/eslint-config-react)
+1. [CSS Style Guide](packages/stylelint-config)
 
 ## Examples
 
 Setup your project with [examples](./doc/examples)
 
-## Setup
+## Development
 
 ```shell script
 git clone https://github.com/cstn/rocklab-javascript.git
 npm install
 ````
 
-## Commands
+### Commands
 
 Install all dependencies
 
@@ -48,5 +48,5 @@ Publish a new version manually
 
 ```shell script
 npm run lerna:version
-npm run lerna:publish -- from-package 
+npm run lerna:publish -- from-package
 ```

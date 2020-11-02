@@ -1,3 +1,4 @@
 module.exports = {
-  base: require('./packages/eslint-config-rocklab-base/index'),
+  react: require('./packages/eslint-config-rocklab-react'),
+  styles: require('./packages/stylelint-config'),
 };

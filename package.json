@@ -1,7 +1,7 @@
 {
   "name": "rocklab-javascript",
   "version": "1.2.1",
-  "description": "Rocklab JavaScript Style Guide",
+  "description": "Rocklab Style Guide for JavaScript based projects",
   "keywords": [
     "rocklab",
     "javacript",
@@ -48,15 +48,14 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "@rocklab/eslint-config-rocklab": "^1.2.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0",
-    "husky": "^4.2.3",
-    "lerna": "^3.20.2",
-    "lint-staged": "^10.1.1",
-    "prettier": "^2.0.2",
+    "eslint": "^7.12.1",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2",
     "prettier-eslint-cli": "^5.0.0",
-    "stylelint": "^13.2.1"
+    "stylelint": "^13.7.2"
   },
   "dependencies": {}
 }
