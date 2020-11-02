@@ -4,6 +4,7 @@ _Code conventions for JavaScript projects_
 
 ## Style guides
 
+1. [JavaScript Style Guide](packages/eslint-config-node)
 1. [React Style Guide](packages/eslint-config-react)
 1. [CSS Style Guide](packages/stylelint-config)
 

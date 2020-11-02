@@ -1,4 +1,6 @@
 // Template for your project's .eslintrc.
 {
-  "extends": "@rocklab/eslint-config-rocklab"
+  // Backend or frontend rules
+  // "extends": "@rocklab/eslint-config-node",
+  "extends": "@rocklab/eslint-config-react"
 }
