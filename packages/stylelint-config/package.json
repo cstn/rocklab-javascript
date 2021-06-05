@@ -30,14 +30,14 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "stylelint": "^13.2.1"
+    "stylelint": "^13.13.1"
   },
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0"
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
   },
   "peerDependencies": {
-    "stylelint": ">=10"
+    "stylelint": ">=13"
   },
   "gitHead": "d61754e03f19a38ba74fb1273d8ff38cfc516e35"
 }

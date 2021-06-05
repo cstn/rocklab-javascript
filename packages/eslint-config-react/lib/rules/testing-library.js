@@ -1,4 +1,4 @@
 module.exports = {
   plugins: ['testing-library'],
-  extends: ['plugin:testing-library/recommended', 'plugin:testing-library/react'],
+  extends: ['plugin:testing-library/react'],
 };
