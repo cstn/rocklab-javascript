@@ -2,6 +2,7 @@
   "name": "rocklab-javascript",
   "version": "2.0.0",
   "description": "Rocklab Style Guide for JavaScript based projects",
+  "private": true,
   "keywords": [
     "rocklab",
     "javacript",
@@ -9,11 +10,11 @@
     "lint"
   ],
   "engines": {
-    "node": ">= 12",
+    "node": ">= 14",
     "npm": ">= 6"
   },
   "scripts": {
-    "postinstall": "npm run lerna:bootstrap",
+    "postinstall": "yarn run lerna:bootstrap",
     "test": "echo \"No test specified\"",
     "lerna": "lerna",
     "lerna:bootstrap": "lerna bootstrap",
@@ -21,14 +22,14 @@
     "lerna:publish": "lerna publish",
     "lint:js": "eslint packages/",
     "lint:styles": "stylelint packages/**/*.css",
-    "lint": "npm run lint:js && npm run lint:styles",
-    "lint:fix": "npm run lint:js -- --fix && npm run lint:styles -- --fix",
-    "prettier": "prettier-eslint --write \"packages/**/*.{js,md}\""
+    "lint": "yarn run lint:js && yarn run lint:styles",
+    "lint:fix": "yarn run lint:js -- --fix && yarn run lint:styles -- --fix",
+    "prettier": "prettier-eslint --write \"packages/**/*.js}\""
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm test"
+      "pre-push": "yarn test"
     }
   },
   "lint-staged": {
@@ -48,7 +49,6 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.1.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
@@ -57,5 +57,8 @@
     "prettier-eslint-cli": "^5.0.1",
     "stylelint": "^14.0.1"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.1.0",
+  "workspaces": [
+    "packages/*"
+  ]
 }
