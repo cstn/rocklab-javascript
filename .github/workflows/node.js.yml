@@ -25,7 +25,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install -g yarn
-    - run: yarn install --frozen-lockfile
-    - run: yarn audit --production --audit-level=high
+    - run: yarn install --frozen-lockfile --non-interactive
+    - run: yarn audit --groups "dependencies" --audit-level=high
     - run: yarn lint
     - run: yarn test
