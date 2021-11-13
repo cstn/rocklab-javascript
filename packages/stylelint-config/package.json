@@ -16,6 +16,9 @@
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
   "license": "MIT",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cstn/rocklab-javascript.git"
@@ -27,9 +30,11 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\""
+    "test": "echo \"Error: no test specified\""
   },
   "devDependencies": {
+    "@babel/runtime": "^7.16.3",
+    "babel-preset-airbnb": "^5.0.0",
     "stylelint": "^14.0.0"
   },
   "dependencies": {
