@@ -9,7 +9,7 @@
     "stylelint"
   ],
   "engines": {
-    "node": ">= 12",
+    "node": ">= 14",
     "npm": ">= 6"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
@@ -27,10 +27,10 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\""
   },
   "devDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.0.0"
   },
   "dependencies": {
     "stylelint-config-standard": "^23.0.0",

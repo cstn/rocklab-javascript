@@ -16,7 +16,7 @@ Setup your project with [examples](./doc/examples)
 
 ```shell script
 git clone https://github.com/cstn/rocklab-javascript.git
-npm install
+yarn install
 ````
 
 ### Commands
@@ -24,30 +24,30 @@ npm install
 Install all dependencies
 
 ```shell script
-npm run lerna:bootstrap
+yarn lerna:bootstrap
 ```
 
 Check own code conventions
 
 ```shell script
-npm run lint
+yarn lint
 ````
 
 Autoformat code
 
 ```shell script
-npm run prettier
+yarn prettier
 ```
 
 Publish a new version
 
 ```shell script
-npm run lerna:publish
+yarn lerna:publish
 ```
 
 Publish a new version manually
 
 ```shell script
-npm run lerna:version
-npm run lerna:publish -- from-package
+yarn lerna:version
+yarn lerna:publish -- from-package
 ```

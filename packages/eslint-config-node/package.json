@@ -10,7 +10,7 @@
     "eslintconfig"
   ],
   "engines": {
-    "node": ">= 12",
+    "node": ">= 14",
     "npm": ">= 6"
   },
   "main": "index.js",
@@ -38,7 +38,6 @@
     "eslint": ">=8"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1"
   },
   "gitHead": "d61754e03f19a38ba74fb1273d8ff38cfc516e35"
 }
