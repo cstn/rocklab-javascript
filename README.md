@@ -24,7 +24,7 @@ yarn install
 Install all dependencies
 
 ```shell script
-yarn lerna:bootstrap
+yarn bootstrap
 ```
 
 Check own code conventions
@@ -42,12 +42,12 @@ yarn prettier
 Publish a new version
 
 ```shell script
-yarn lerna:publish
+yarn publish
 ```
 
 Publish a new version manually
 
 ```shell script
-yarn lerna:version
-yarn lerna:publish -- from-package
+yarn version
+yarn publish from-package
 ```
