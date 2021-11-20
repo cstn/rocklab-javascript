@@ -42,12 +42,12 @@ yarn prettier
 Publish a new version
 
 ```shell script
-yarn publish
+yarn lerna:publish
 ```
 
 Publish a new version manually
 
 ```shell script
 yarn version
-yarn publish from-package
+yarn lerna:publish from-package
 ```
