@@ -24,30 +24,30 @@ yarn install
 Install all dependencies
 
 ```shell script
-yarn bootstrap
+npm install
 ```
 
 Check own code conventions
 
 ```shell script
-yarn lint
+npm run lint
 ````
 
 Autoformat code
 
 ```shell script
-yarn prettier
+npm run prettier
 ```
 
 Publish a new version
 
 ```shell script
-yarn lerna:publish
+npm run lerna:publish
 ```
 
 Publish a new version manually
 
 ```shell script
-yarn version
-yarn lerna:publish from-package
+npm run version
+npm run lerna:publish -- from-package
 ```

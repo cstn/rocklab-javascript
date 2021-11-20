@@ -14,7 +14,7 @@
     "npm": ">= 6"
   },
   "scripts": {
-    "postinstall": "yarn lerna:bootstrap",
+    "postinstall": "npm run lerna:bootstrap",
     "test": "echo \"No test specified\"",
     "lerna": "lerna",
     "lerna:bootstrap": "lerna bootstrap",
@@ -22,14 +22,14 @@
     "lerna:publish": "lerna publish",
     "lint:js": "eslint packages/",
     "lint:styles": "stylelint packages/**/*.css",
-    "lint": "yarn run lint:js && yarn run lint:styles",
-    "lint:fix": "yarn run lint:js -- --fix && yarn run lint:styles -- --fix",
+    "lint": "npm run lint:js && npm run lint:styles",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:styles -- --fix",
     "prettier": "prettier-eslint --write \"packages/**/*.js}\""
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "yarn test"
+      "pre-push": "npm test"
     }
   },
   "lint-staged": {
@@ -56,9 +56,5 @@
     "prettier": "^2.4.1",
     "prettier-eslint-cli": "^5.0.1",
     "stylelint": "^14.0.1"
-  },
-  "packageManager": "yarn@3.1.0",
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
