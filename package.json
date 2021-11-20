@@ -56,8 +56,5 @@
     "prettier": "^2.4.1",
     "prettier-eslint-cli": "^5.0.1",
     "stylelint": "^14.0.1"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
