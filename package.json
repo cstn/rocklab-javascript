@@ -20,6 +20,7 @@
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:version": "lerna version",
     "lerna:publish": "lerna publish",
+    "lerna:update": "lerna exec ncu",
     "lint:js": "eslint packages/",
     "lint:styles": "stylelint packages/**/*.css",
     "lint": "npm run lint:js && npm run lint:styles",
@@ -49,12 +50,12 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.1.0",
+    "eslint": "^8.3.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
-    "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
     "prettier-eslint-cli": "^5.0.1",
-    "stylelint": "^14.0.1"
+    "stylelint": "^14.1.0"
   }
 }

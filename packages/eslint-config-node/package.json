@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-node",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A shareable eslint config for Node.js web app",
   "keywords": [
     "rocklab",
@@ -35,7 +35,7 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.3"
   },
   "peerDependencies": {
     "eslint": ">=8"

@@ -1,12 +1,7 @@
 module.exports = {
   extends: [
-    'eslint:recommended',
     'eslint-config-airbnb',
-    'prettier',
-    './lib/rules/possible-errors.js',
-    './lib/rules/best-practises.js',
-    './lib/rules/stylistic-issues.js',
-    './lib/rules/es6.js',
+    '@rocklab/eslint-config-node',
     './lib/rules/react.js',
     './lib/rules/hooks.js',
     './lib/rules/a11y.js',
