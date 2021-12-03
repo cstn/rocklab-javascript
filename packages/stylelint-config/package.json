@@ -21,7 +21,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cstn/rocklab-javascript.git"
+    "url": "git+https://github.com/cstn/rocklab-javascript.git",
+    "directory": "packages/stylelint-config"
   },
   "bugs": {
     "url": "https://github.com/cstn/rocklab-javascript/issues"

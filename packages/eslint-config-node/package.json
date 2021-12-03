@@ -22,7 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cstn/rocklab-javascript"
+    "url": "https://github.com/cstn/rocklab-javascript",
+    "directory": "packages/eslint-config-node"
   },
   "bugs": {
     "url": "https://github.com/cstn/rocklab-javascript/issues"
