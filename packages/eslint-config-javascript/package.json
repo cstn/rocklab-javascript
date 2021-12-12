@@ -1,13 +1,15 @@
 {
-  "name": "@rocklab/eslint-config-react",
+  "name": "@rocklab/eslint-config-javascript",
   "version": "2.2.0",
-  "description": "A shareable eslint config for React.js web app",
+  "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
     "javascript",
     "styleguide",
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "react",
+    "node"
   ],
   "engines": {
     "node": ">= 14",
@@ -15,7 +17,8 @@
   },
   "main": "index.js",
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",
+    "./base": "./base.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\""
@@ -23,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cstn/rocklab-javascript",
-    "directory": "packages/eslint-config-react"
+    "directory": "packages/eslint-config-javascript"
   },
   "bugs": {
     "url": "https://github.com/cstn/rocklab-javascript/issues"
@@ -34,7 +37,6 @@
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "MIT",
   "dependencies": {
-    "@rocklab/eslint-config-node": "^2.2.0",
     "eslint-config-airbnb": "^19.0.1",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",

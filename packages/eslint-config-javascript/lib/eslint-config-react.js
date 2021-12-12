@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
-    '@rocklab/eslint-config-node',
     './lib/rules/react.js',
     './lib/rules/hooks.js',
     './lib/rules/a11y.js',
