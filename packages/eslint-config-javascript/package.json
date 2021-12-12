@@ -21,7 +21,7 @@
     "./base": "./base.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -50,7 +50,8 @@
   },
   "devDependencies": {
     "@babel/runtime": "^7.16.3",
-    "babel-preset-airbnb": "^5.0.0"
+    "babel-preset-airbnb": "^5.0.0",
+    "jest": "^27.4.4"
   },
   "gitHead": "153dcffbf986f30ae584453412722221f5b3f351"
 }

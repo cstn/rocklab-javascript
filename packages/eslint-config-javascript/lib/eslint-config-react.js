@@ -1,6 +1,10 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
+    './lib/rules/possible-errors.js',
+    './lib/rules/best-practises.js',
+    './lib/rules/stylistic-issues.js',
+    './lib/rules/es6.js',
     './lib/rules/react.js',
     './lib/rules/hooks.js',
     './lib/rules/a11y.js',

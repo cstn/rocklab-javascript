@@ -15,8 +15,8 @@
   },
   "scripts": {
     "postinstall": "npm run lerna:bootstrap",
-    "test": "echo \"No test specified\"",
     "lerna": "lerna",
+    "test": "lerna run test",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:version": "lerna version",
     "lerna:publish": "lerna publish",
@@ -52,6 +52,7 @@
   "devDependencies": {
     "eslint": "^8.3.0",
     "husky": "^7.0.4",
+    "jest": "^27.4.4",
     "lerna": "^4.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0",
