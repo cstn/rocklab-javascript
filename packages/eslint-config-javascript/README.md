@@ -24,7 +24,7 @@ React.js projects:
 
 ```metadata json
 {
-  "extends": "@rocklab/eslint-config-react",
+  "extends": "@rocklab/eslint-config-javascript",
   "rules": {
     // Add your rules
   }
