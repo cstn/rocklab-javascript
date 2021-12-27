@@ -1,10 +1,11 @@
 {
-  "name": "@rocklab/eslint-config-javascript",
+  "name": "@rocklab/eslint-config-typescript",
   "version": "3.0.1",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
     "javascript",
+    "typescript",
     "styleguide",
     "eslint",
     "eslintconfig",
@@ -37,23 +38,17 @@
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.1",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-testcafe": "^0.2.1",
-    "eslint-plugin-testing-library": "^5.0.1"
+    "@rocklab/eslint-config-javascript": "3.0.1"
   },
   "peerDependencies": {
     "eslint": ">=8"
   },
   "devDependencies": {
     "@babel/runtime": "7.16.5",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "babel-preset-airbnb": "5.0.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
     "jest": "27.4.5"
-  },
-  "gitHead": "153dcffbf986f30ae584453412722221f5b3f351"
+  }
 }
