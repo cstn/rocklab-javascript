@@ -12,7 +12,6 @@ module.exports = {
     './lib/rules/testcafe.js',
   ],
   rules: {
-    // add additional rules here
   },
   env: {
     amd: true,
