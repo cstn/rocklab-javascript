@@ -50,9 +50,9 @@
     "eslint": ">=8"
   },
   "devDependencies": {
-    "@babel/runtime": "7.16.3",
-    "babel-preset-airbnb": "5.0.0",
-    "jest": "27.4.4"
+    "@babel/runtime": "7.16.5",
+    "babel-preset-airbnb": "^5.0.0",
+    "jest": "^27.4.4"
   },
   "gitHead": "153dcffbf986f30ae584453412722221f5b3f351"
 }
