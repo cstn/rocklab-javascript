@@ -57,6 +57,6 @@
     "lint-staged": "12.1.4",
     "prettier": "2.5.0",
     "prettier-eslint-cli": "5.0.1",
-    "stylelint": "14.1.0"
+    "stylelint": "14.2.0"
   }
 }
