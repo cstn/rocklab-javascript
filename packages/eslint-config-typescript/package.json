@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -38,7 +38,7 @@
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "MIT",
   "dependencies": {
-    "@rocklab/eslint-config-javascript": "3.0.1"
+    "@rocklab/eslint-config-javascript": "^3.0.2"
   },
   "peerDependencies": {
     "eslint": ">=8"
