@@ -35,9 +35,9 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.16.5",
-    "babel-preset-airbnb": "^5.0.0",
-    "jest": "^27.4.4",
-    "stylelint": "^14.1.0"
+    "babel-preset-airbnb": "5.0.0",
+    "jest": "27.4.4",
+    "stylelint": "14.1.0"
   },
   "dependencies": {
     "stylelint-config-standard": "^24.0.0",
