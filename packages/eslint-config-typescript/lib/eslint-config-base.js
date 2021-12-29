@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     '@rocklab/eslint-config-javascript/base',
-    'airbnb-typescript/base',
+    'eslint-config-airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
