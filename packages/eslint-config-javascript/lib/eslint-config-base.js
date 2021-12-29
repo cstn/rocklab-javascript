@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'eslint-config-airbnb/base',
-    'prettier',
+    'eslint-config-prettier',
     './lib/rules/possible-errors.js',
     './lib/rules/best-practises.js',
     './lib/rules/stylistic-issues.js',
