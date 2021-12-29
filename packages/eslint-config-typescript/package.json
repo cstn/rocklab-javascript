@@ -48,9 +48,9 @@
     "@typescript-eslint/eslint-plugin": "5.8.1",
     "@typescript-eslint/parser": "5.8.1",
     "babel-preset-airbnb": "5.0.0",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-config-airbnb-typescript": "16.1.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-prettier": "4.0.0",
     "jest": "27.4.5"
   }
 }
