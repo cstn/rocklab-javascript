@@ -1,9 +1,10 @@
 module.exports = {
   extends: [
-    '@rocklab/eslint-config-javascript',
     'eslint-config-airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    '@rocklab/eslint-config-javascript',
+    './lib/rules/stylistic-issues.js',
   ],
   rules: {
   },
