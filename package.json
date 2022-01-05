@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -51,7 +51,7 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "8.5.0",
+    "eslint": "8.6.0",
     "husky": "7.0.4",
     "is-ci": "^3.0.1",
     "jest": "27.4.5",
