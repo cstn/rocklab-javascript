@@ -7,6 +7,7 @@ _Code conventions for JavaScript projects_
 1. [TypeScript Style Guide](packages/eslint-config-typescript)
 1. [JavaScript Style Guide](packages/eslint-config-javascript)
 1. [CSS Style Guide](packages/stylelint-config)
+1. [Commit Style Guide](packages/commitlint-config)
 
 ## Examples
 
