@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.0.1",
+  "version": "3.0.0",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -26,7 +26,8 @@
     "lint:styles": "stylelint packages/**/*.css",
     "lint": "npm run lint:js && npm run lint:styles",
     "lint:fix": "npm run lint:js -- --fix && npm run lint:styles -- --fix",
-    "prettier": "prettier-eslint --write \"packages/**/*.js}\""
+    "prettier": "prettier-eslint --write \"packages/**/*.js}\"",
+    "commit": "commit"
   },
   "husky": {
     "hooks": {
@@ -51,6 +52,9 @@
   "author": "Carsten Stein (carsten.stein@cast-it.de)",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-lerna-scopes": "^16.0.0",
+    "@commitlint/prompt-cli": "^16.0.0",
     "eslint": "8.6.0",
     "husky": "7.0.4",
     "is-ci": "^3.0.1",
