@@ -26,7 +26,8 @@
     "lint:styles": "stylelint packages/**/*.css",
     "lint": "npm run lint:js && npm run lint:styles",
     "lint:fix": "npm run lint:js -- --fix && npm run lint:styles -- --fix",
-    "prettier": "prettier-eslint --write \"packages/**/*.js}\""
+    "prettier": "prettier-eslint --write \"packages/**/*.js}\"",
+    "commit": "commit"
   },
   "husky": {
     "hooks": {
