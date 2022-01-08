@@ -1,0 +1,46 @@
+{
+  "name": "@rocklab/commitlint-config",
+  "version": "3.0.4",
+  "description": "A shareable commitlint config",
+  "keywords": [
+    "rocklab",
+    "css",
+    "styleguide",
+    "commitlint"
+  ],
+  "engines": {
+    "node": ">= 14",
+    "npm": ">= 6"
+  },
+  "author": "Carsten Stein <carsten.stein@cast-it.de>",
+  "homepage": "https://github.com/cstn/rocklab-javascript#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstn/rocklab-javascript.git",
+    "directory": "packages/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/cstn/rocklab-javascript/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@rocklab/eslint-config-javascript": "3.0.7",
+    "jest": "27.4.5"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "16.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">=16"
+  }
+}
