@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/commitlint-config",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "A shareable commitlint config",
   "keywords": [
     "rocklab",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@rocklab/eslint-config-javascript": "3.0.7",
-    "jest": "27.4.5"
+    "jest": "27.4.7"
   },
   "dependencies": {
     "@commitlint/config-conventional": "16.0.0"
