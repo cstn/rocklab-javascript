@@ -17,7 +17,7 @@ Setup your project with [examples](./doc/examples)
 
 ```shell script
 git clone https://github.com/cstn/rocklab-javascript.git
-yarn install
+npm install
 ````
 
 ### Commands
@@ -43,12 +43,18 @@ npm run prettier
 Publish a new version
 
 ```shell script
-npm run lerna:publish
+npm run publish
 ```
 
 Publish a new version manually
 
 ```shell script
 npm run version
-npm run lerna:publish -- from-package
+npm run publish -- from-package
+```
+
+Create a release
+
+```shell script
+npm run release
 ```
