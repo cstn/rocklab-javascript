@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -39,18 +39,18 @@
   "license": "MIT",
   "dependencies": {
     "@rocklab/eslint-config-javascript": "^3.2.4",
-    "@typescript-eslint/eslint-plugin": "5.16.0",
-    "@typescript-eslint/parser": "5.16.0",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
     "babel-preset-airbnb": "5.0.0",
-    "eslint-config-airbnb-typescript": "16.1.4",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0"
   },
   "peerDependencies": {
     "eslint": ">=8"
   },
   "devDependencies": {
-    "@babel/runtime": "7.17.8",
+    "@babel/runtime": "7.17.9",
     "jest": "27.5.1"
   }
 }
