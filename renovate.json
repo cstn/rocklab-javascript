@@ -2,7 +2,7 @@
   "extends": [
     "config:base",
     "schedule:weekly",
-    "group:all"
+    "group:allNonMajor"
   ],
   "labels": ["dependencies"],
   "bumpVersion": "patch"
