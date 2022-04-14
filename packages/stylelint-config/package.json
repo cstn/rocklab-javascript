@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/stylelint-config",
-  "version": "3.2.11",
+  "version": "3.2.12",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
@@ -9,8 +9,8 @@
     "stylelint"
   ],
   "engines": {
-    "node": ">= 14",
-    "npm": ">= 6"
+    "node": ">= 16",
+    "npm": ">= 8"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
