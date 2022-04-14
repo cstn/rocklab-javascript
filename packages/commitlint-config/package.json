@@ -9,8 +9,8 @@
     "commitlint"
   ],
   "engines": {
-    "node": ">= 14",
-    "npm": ">= 6"
+    "node": ">= 16",
+    "npm": ">= 8"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
