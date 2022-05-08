@@ -5,5 +5,11 @@
     "group:allNonMajor"
   ],
   "labels": ["dependencies"],
-  "bumpVersion": "patch"
+  "bumpVersion": "patch",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
