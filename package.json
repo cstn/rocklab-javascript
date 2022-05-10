@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.2.16",
+  "version": "3.2.17",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -57,7 +57,7 @@
     "@commitlint/config-lerna-scopes": "16.2.4",
     "@commitlint/prompt-cli": "16.2.4",
     "eslint": "8.15.0",
-    "husky": "7.0.4",
+    "husky": "8.0.1",
     "is-ci": "3.0.1",
     "jest": "28.1.0",
     "lerna": "4.0.0",
