@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.2.24",
+  "version": "3.2.25",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -61,7 +61,7 @@
     "is-ci": "3.0.1",
     "jest": "28.1.1",
     "lerna": "4.0.0",
-    "lint-staged": "13.0.2",
+    "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "prettier-eslint-cli": "6.0.1",
     "stylelint": "14.9.1"
