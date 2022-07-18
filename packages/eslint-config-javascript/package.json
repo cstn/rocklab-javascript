@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-javascript",
-  "version": "3.2.17",
+  "version": "3.2.18",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -53,7 +53,7 @@
   "devDependencies": {
     "@babel/runtime": "7.18.6",
     "babel-preset-airbnb": "5.0.0",
-    "jest": "28.1.2"
+    "jest": "28.1.3"
   },
   "gitHead": "153dcffbf986f30ae584453412722221f5b3f351"
 }
