@@ -10,8 +10,8 @@
     "lint"
   ],
   "engines": {
-    "node": ">= 14",
-    "npm": ">= 6"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "scripts": {
     "prepare": "is-ci || husky install",
@@ -64,6 +64,6 @@
     "lint-staged": "13.2.0",
     "prettier": "2.8.7",
     "prettier-eslint-cli": "7.1.0",
-    "stylelint": "14.16.1"
+    "stylelint": "15.4.0"
   }
 }

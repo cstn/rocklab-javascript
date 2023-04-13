@@ -9,8 +9,8 @@
     "commitlint"
   ],
   "engines": {
-    "node": ">= 16",
-    "npm": ">= 8"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
@@ -38,7 +38,7 @@
     "jest": "29.5.0"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "17.4.4"
+    "@commitlint/config-conventional": "17.6.0"
   },
   "peerDependencies": {
     "@commitlint/cli": ">=16"
