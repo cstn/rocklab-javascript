@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/stylelint-config",
-  "version": "3.2.52",
+  "version": "3.2.53",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
@@ -34,9 +34,9 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@babel/runtime": "7.22.5",
+    "@babel/runtime": "7.22.6",
     "babel-preset-airbnb": "5.0.0",
-    "jest": "29.5.0",
+    "jest": "29.6.1",
     "stylelint": "15.10.1"
   },
   "dependencies": {
