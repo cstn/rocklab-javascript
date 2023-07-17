@@ -13,12 +13,16 @@
     "node": "18.x",
     "npm": "9.x"
   },
+  "workspaces": [
+    "packages/commitlint-config",
+    "packages/eslint-config-javascript",
+    "packages/eslint-config-typescript",
+    "packages/stylelint-config"
+  ],
   "scripts": {
     "prepare": "is-ci || husky install",
-    "postinstall": "npm run bootstrap",
     "lerna": "lerna",
     "test": "lerna run test",
-    "bootstrap": "lerna bootstrap",
     "version": "lerna version --conventional-commits",
     "publish": "lerna publish",
     "release": "lerna version --conventional-commits --create-release github",
