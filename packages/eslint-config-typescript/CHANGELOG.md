@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.74](https://github.com/cstn/rocklab-javascript/compare/v3.2.73...v3.2.74) (2023-07-20)
+
+**Note:** Version bump only for package @rocklab/eslint-config-typescript
+
+
+
+
+
 ## [3.2.73](https://github.com/cstn/rocklab-javascript/compare/v3.2.59...v3.2.73) (2023-07-20)
 
 
