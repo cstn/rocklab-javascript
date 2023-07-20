@@ -39,8 +39,8 @@
   "license": "MIT",
   "dependencies": {
     "@rocklab/eslint-config-javascript": "^3.2.73",
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
     "babel-preset-airbnb": "5.0.0",
     "eslint-config-airbnb-typescript": "17.1.0",
     "eslint-plugin-import": "2.27.5",
