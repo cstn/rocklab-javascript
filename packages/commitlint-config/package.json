@@ -41,6 +41,6 @@
     "@commitlint/config-conventional": "17.6.6"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=16"
+    "@commitlint/cli": ">=17"
   }
 }

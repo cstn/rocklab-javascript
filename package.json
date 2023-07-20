@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.2.72",
+  "version": "3.2.73",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -13,12 +13,16 @@
     "node": "18.x",
     "npm": "9.x"
   },
+  "workspaces": [
+    "packages/commitlint-config",
+    "packages/eslint-config-javascript",
+    "packages/eslint-config-typescript",
+    "packages/stylelint-config"
+  ],
   "scripts": {
     "prepare": "is-ci || husky install",
-    "postinstall": "npm run bootstrap",
     "lerna": "lerna",
     "test": "lerna run test",
-    "bootstrap": "lerna bootstrap",
     "version": "lerna version --conventional-commits",
     "publish": "lerna publish",
     "release": "lerna version --conventional-commits --create-release github",
@@ -54,13 +58,12 @@
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
-    "@commitlint/config-lerna-scopes": "17.6.6",
     "@commitlint/prompt-cli": "17.6.6",
     "eslint": "8.45.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "jest": "29.6.1",
-    "lerna": "6.6.2",
+    "lerna": "7.1.4",
     "lint-staged": "13.2.3",
     "prettier": "3.0.0",
     "prettier-eslint-cli": "7.1.0",
