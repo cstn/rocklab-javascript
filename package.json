@@ -58,7 +58,6 @@
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
-    "@commitlint/config-lerna-scopes": "17.6.6",
     "@commitlint/prompt-cli": "17.6.6",
     "eslint": "8.45.0",
     "husky": "8.0.3",
