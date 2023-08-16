@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.78](https://github.com/cstn/rocklab-javascript/compare/v3.2.73...v3.2.78) (2023-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([d533632](https://github.com/cstn/rocklab-javascript/commit/d533632538220c2ee2bd1c3f90de1209b055353c))
+* **deps:** update all non-major dependencies ([0d74d30](https://github.com/cstn/rocklab-javascript/commit/0d74d302694bea66aaf7c3d1fc160b7a62359c2b))
+* **deps:** update typescript-eslint monorepo to v6 ([#218](https://github.com/cstn/rocklab-javascript/issues/218)) ([a50cdee](https://github.com/cstn/rocklab-javascript/commit/a50cdee21ac5b94b72827c48e9b4da212675abb5))
+* **deps:** update typescript-eslint monorepo to v6 ([#221](https://github.com/cstn/rocklab-javascript/issues/221)) ([70d52f2](https://github.com/cstn/rocklab-javascript/commit/70d52f2f8b9c6d4a8a92b57313f8b7f8cb058fbd))
+
+
+
+
+
 ## [3.2.74](https://github.com/cstn/rocklab-javascript/compare/v3.2.73...v3.2.74) (2023-07-20)
 
 **Note:** Version bump only for package @rocklab/eslint-config-typescript
