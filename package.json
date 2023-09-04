@@ -1,6 +1,6 @@
 {
   "name": "rocklab-javascript",
-  "version": "3.2.81",
+  "version": "3.2.82",
   "description": "Rocklab Style Guide for JavaScript based projects",
   "private": true,
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "engines": {
     "node": "18.x",
-    "npm": "9.x"
+    "npm": "10.x"
   },
   "workspaces": [
     "packages/commitlint-config",

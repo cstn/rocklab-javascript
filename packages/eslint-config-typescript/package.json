@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.2.80",
+  "version": "3.2.81",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -14,7 +14,7 @@
   ],
   "engines": {
     "node": "18.x",
-    "npm": "9.x"
+    "npm": "10.x"
   },
   "main": "index.js",
   "exports": {
