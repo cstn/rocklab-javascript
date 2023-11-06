@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/commitlint-config",
-  "version": "3.2.83",
+  "version": "3.2.84",
   "description": "A shareable commitlint config",
   "keywords": [
     "rocklab",
@@ -9,7 +9,7 @@
     "commitlint"
   ],
   "engines": {
-    "node": "18.x",
+    "node": "20.x",
     "npm": "9.x"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
