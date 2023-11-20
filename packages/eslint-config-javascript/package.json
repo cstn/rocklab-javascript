@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-javascript",
-  "version": "3.2.85",
+  "version": "3.2.86",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
