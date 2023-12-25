@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-javascript",
-  "version": "3.2.89",
+  "version": "3.2.90",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -41,7 +41,7 @@
     "eslint-config-prettier": "8.10.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-prettier": "5.1.2",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-testcafe": "0.2.1",
