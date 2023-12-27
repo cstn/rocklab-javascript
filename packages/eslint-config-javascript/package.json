@@ -12,8 +12,8 @@
     "node"
   ],
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "main": "index.js",
   "exports": {
