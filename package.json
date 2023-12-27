@@ -10,8 +10,8 @@
     "lint"
   ],
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "workspaces": [
     "packages/commitlint-config",

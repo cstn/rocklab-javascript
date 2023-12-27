@@ -9,8 +9,8 @@
     "stylelint"
   ],
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "homepage": "https://github.com/cstn/rocklab-javascript#readme",
