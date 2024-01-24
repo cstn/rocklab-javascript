@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.2.95",
+  "version": "3.2.96",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -38,7 +38,7 @@
   "author": "Carsten Stein <carsten.stein@cast-it.de>",
   "license": "MIT",
   "dependencies": {
-    "@rocklab/eslint-config-javascript": "^3.2.95",
+    "@rocklab/eslint-config-javascript": "^3.2.96",
     "@typescript-eslint/eslint-plugin": "6.19.1",
     "@typescript-eslint/parser": "6.19.1",
     "babel-preset-airbnb": "5.0.0",
