@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/stylelint-config",
-  "version": "3.2.93",
+  "version": "3.2.96",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
