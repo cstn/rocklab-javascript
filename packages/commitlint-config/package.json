@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/commitlint-config",
-  "version": "3.2.94",
+  "version": "3.2.95",
   "description": "A shareable commitlint config",
   "keywords": [
     "rocklab",
