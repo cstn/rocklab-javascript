@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.93](https://github.com/cstn/rocklab-javascript/compare/v3.2.95...v3.2.93) (2024-01-24)
+
+### Bug Fixes
+
+- lock and stylelint version ([fff7362](https://github.com/cstn/rocklab-javascript/commit/fff7362e3bcc7e5c47355971fe11a3f78bc18cfd))
+
 ## [3.2.86](https://github.com/cstn/rocklab-javascript/compare/v3.2.78...v3.2.86) (2023-11-20)
 
 **Note:** Version bump only for package @rocklab/stylelint-config
