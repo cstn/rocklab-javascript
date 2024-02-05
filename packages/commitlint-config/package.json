@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/commitlint-config",
-  "version": "3.2.97",
+  "version": "3.2.98",
   "description": "A shareable commitlint config",
   "keywords": [
     "rocklab",
@@ -38,7 +38,7 @@
     "jest": "29.7.0"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "18.5.0"
+    "@commitlint/config-conventional": "17.8.1"
   },
   "peerDependencies": {
     "@commitlint/cli": ">=17"
