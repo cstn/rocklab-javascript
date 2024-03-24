@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.2.100",
+  "version": "3.2.101",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "babel-preset-airbnb": "5.0.0",
-    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-prettier": "5.1.3"
   },
