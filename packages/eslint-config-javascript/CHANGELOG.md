@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.103](https://github.com/cstn/rocklab-javascript/compare/v3.2.97...v3.2.103) (2024-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to v9 ([#285](https://github.com/cstn/rocklab-javascript/issues/285)) ([0b5be93](https://github.com/cstn/rocklab-javascript/commit/0b5be93819183da6885f59178c9b44ef2ccf21ea))
+- **deps:** update dependency eslint-plugin-testing-library to v6 ([#288](https://github.com/cstn/rocklab-javascript/issues/288)) ([3401e14](https://github.com/cstn/rocklab-javascript/commit/3401e1476f5882079fb16e8e76bc16692719a3c3))
+
 ## [3.2.97](https://github.com/cstn/rocklab-javascript/compare/v3.2.96...v3.2.97) (2024-01-24)
 
 ### Bug Fixes

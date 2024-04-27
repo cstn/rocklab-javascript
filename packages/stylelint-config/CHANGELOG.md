@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.103](https://github.com/cstn/rocklab-javascript/compare/v3.2.97...v3.2.103) (2024-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-standard to v36 ([#291](https://github.com/cstn/rocklab-javascript/issues/291)) ([117c5ae](https://github.com/cstn/rocklab-javascript/commit/117c5ae949b5b47924e98ea984552dea75e1de25))
+
 ## [3.2.97](https://github.com/cstn/rocklab-javascript/compare/v3.2.96...v3.2.97) (2024-01-24)
 
 ### Bug Fixes

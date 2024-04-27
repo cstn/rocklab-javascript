@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.103](https://github.com/cstn/rocklab-javascript/compare/v3.2.97...v3.2.103) (2024-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-airbnb-typescript to v18 ([#290](https://github.com/cstn/rocklab-javascript/issues/290)) ([4180400](https://github.com/cstn/rocklab-javascript/commit/4180400f9c4fea185769932842eeba21f5b1a67c))
+- **deps:** update dependency eslint-config-prettier to v9 ([#285](https://github.com/cstn/rocklab-javascript/issues/285)) ([0b5be93](https://github.com/cstn/rocklab-javascript/commit/0b5be93819183da6885f59178c9b44ef2ccf21ea))
+- **deps:** update dependency eslint-plugin-testing-library to v6 ([#288](https://github.com/cstn/rocklab-javascript/issues/288)) ([3401e14](https://github.com/cstn/rocklab-javascript/commit/3401e1476f5882079fb16e8e76bc16692719a3c3))
+- **deps:** update dependency stylelint-config-standard to v36 ([#291](https://github.com/cstn/rocklab-javascript/issues/291)) ([117c5ae](https://github.com/cstn/rocklab-javascript/commit/117c5ae949b5b47924e98ea984552dea75e1de25))
+- **deps:** update typescript-eslint monorepo to v7 (major) ([#292](https://github.com/cstn/rocklab-javascript/issues/292)) ([e196b40](https://github.com/cstn/rocklab-javascript/commit/e196b40a56a8b7b02bcd86a9485bd00da10b7b6f))
+
 ## [3.2.97](https://github.com/cstn/rocklab-javascript/compare/v3.2.96...v3.2.97) (2024-01-24)
 
 ### Bug Fixes

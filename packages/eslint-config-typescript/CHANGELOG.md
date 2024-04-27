@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.103](https://github.com/cstn/rocklab-javascript/compare/v3.2.97...v3.2.103) (2024-04-27)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-airbnb-typescript to v18 ([#290](https://github.com/cstn/rocklab-javascript/issues/290)) ([4180400](https://github.com/cstn/rocklab-javascript/commit/4180400f9c4fea185769932842eeba21f5b1a67c))
+- **deps:** update typescript-eslint monorepo to v7 (major) ([#292](https://github.com/cstn/rocklab-javascript/issues/292)) ([e196b40](https://github.com/cstn/rocklab-javascript/commit/e196b40a56a8b7b02bcd86a9485bd00da10b7b6f))
+
 ## [3.2.97](https://github.com/cstn/rocklab-javascript/compare/v3.2.96...v3.2.97) (2024-01-24)
 
 ### Bug Fixes
