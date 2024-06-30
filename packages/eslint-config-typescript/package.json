@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/eslint-config-typescript",
-  "version": "3.2.104",
+  "version": "3.2.105",
   "description": "A shareable eslint config",
   "keywords": [
     "rocklab",
@@ -50,7 +50,7 @@
     "eslint": ">=8"
   },
   "devDependencies": {
-    "@babel/runtime": "7.24.5",
+    "@babel/runtime": "7.24.7",
     "jest": "29.7.0"
   }
 }
