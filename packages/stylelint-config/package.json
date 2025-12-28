@@ -1,6 +1,6 @@
 {
   "name": "@rocklab/stylelint-config",
-  "version": "3.2.105",
+  "version": "3.2.106",
   "description": "A shareable stylelint config for web apps",
   "keywords": [
     "rocklab",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "stylelint-config-standard": "36.0.0",
-    "stylelint-order": "6.0.4"
+    "stylelint-order": "7.0.1"
   },
   "peerDependencies": {
     "eslint": ">=8",
